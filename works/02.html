@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>オリアプ（オリジナルアプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Hashimoto Yoshito</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>MRI-guide（MRI撮影業務の補助アプリ）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/pict-work02-firstview_pc.jpg" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / render / Visual Studio Code </p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="__URL__" target="_blank">https://github.com/Yoshito21/MRI-guide</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>300時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="__URL__" target="_blank">https://mri-guide.onrender.com/</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td></td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>a@a.a</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>aa1111</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、診療放射線技師の業務の一つである、MRIの撮影の支援となるアプリを開発しました。
+                <br>
+                主な機能は、ユーザー登録機能、所属施設登録・検索・所属申請/承認機能、使用機器登録機能、検査項目の登録・検索機能、撮影目的ごと・施設ごとの撮影方法の登録機能、撮影方法ごとの備考登録機能、画像のコントラストによる検索機能・問い合わせ機能です。
+              </p>
+              <p>
+                トップページにアクセスすると、ヘッダーにマイページへのリンク、所属施設へのリンク（未所属の場合は登録ボタン）を設置しており、プルダウンメニューに、撮影画像の信号値での検索ページ、施設検索ページへのリンクがあります。また、ログアウトボタンもプルダウンメニューに設置しています。
+              </p>
+              <p>
+                登録した検査項目ごとに、自分の施設だけでなく他施設の撮影法も閲覧できるので、撮影法がわからない時に参照することができます。また、撮影画像のコントラストがどうだったかによって、それに合致した検査項目を検索することができるため、想定と異なる病気が見つかった際にも適切な画像を追加して撮影することができるようになります。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  私は日常業務で主にMRIの撮影をしていますが、MRIは一人の検査に30分ほどかかる長い検査で、1検査の中で多種類の画像を撮影します。例えば、水は黒く脂肪をやや白く表現するT1や、水を白く脂肪はやや白く表現するT2、水を白く脂肪を黒く表現するSTIRなど、多種多様な撮影法があり、検査目的や病変に合わせて選択していかなければなりません。
+                </p>
+                <p>
+                  しかし、経験の浅い技師や、出会ったことのない症例の場合は、適切な撮影法を選択することは困難です。
+                </p>
+                <p>
+                  そこで、自施設のマニュアルや他施設の撮影法を参照でき、でてきた画像で自分で判断ができない際にも、何で白く、何で黒く出たのかを入力すれば考えられる候補が出てくるようなシステムがあれば、技師の技量に大きく左右されずに質の高い画像を提供できると考え、アプリの開発を行っています。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <!--div class="p-work-about__item-block-pict obj-fit-img"-->
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <!--img src="../images/work/02/pict-work02-about-dammy.jpg"-->
+                <!--/div-->
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目は、ユーザー登録です。ユーザーは施設に紐づけられている仕様にしましたが、現職ではないユーザーや施設登録をしないユーザーを想定し、所属施設の登録は任意にしました。ただ、施設登録をしなければエラーが出てしまうので、未登録のユーザーには仮の施設である「未登録」を与えることで、エラーを回避しています。
+                  </p>
+                  <p>
+                    ただ、施設登録をしなければエラーが出てしまうので、未登録のユーザーには仮の施設である「未登録」を与えることで、エラーを回避しています。
+                  </p>
+                  <p>
+                    所属施設の登録に関しては、まずは検索をして、所属したい施設がなかった場合のみ新規登録ができるようにしています。検索でヒットした場合は、施設の詳細画面から申請を行い、承認されることによって所属ができるようにしています。これによって、部外者が自施設に入ってくるのを防ぐことができます。
+                  </p>
+                  <p>
+                    2つ目は検査項目の検索です。検査項目は誰でも新規登録できるようにしていますが、重複は避けたいので、検索結果がなかった場合のみ新規登録ボタンが表示されるようにしました。
+                  </p>
+                  <p>
+                    また、新規登録ボタンをクリックして登録ページに遷移する際、セッションを用いて検索窓に入力した情報を再度入力する必要がないようにしています。
+                  </p>
+                  <p>
+                    加えて、検査部位と目的の両方が同じ検査項目が存在できないようなバリデーションを設定しました。
+                  </p>
+                  <p>
+                    ３つ目は、撮影法の登録に関してです。ユーザーが極力少ないクリックで登録できるよう、表示方法や配置を考慮しました。
+                  </p>
+                  <p>
+                    また、撮影法の削除に関しては、消したい撮影法をクリックして初めて削除ボタンが表示されるようにし、複数の撮影法を選択して同時に削除できるようにしています。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <!--div class="p-work-about__item-block-pict obj-fit-img"-->
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <!--img src="../images/work/02/pict-work02-about-dammy.jpg"-->
+                <!--/div-->
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    基本的に放射線技師のみに向けたサービスなので、冷やかしや無関係のユーザーが登録することを抑止したいと思っています。
+                  </p>
+                  <p>
+                    また、マネタイズ化して継続的な運用を考えています。
+                  </p>
+                  <p>
+                    そのために、以下の項目を追加していきたいと考えています。
+                    <br>
+                    ・月額会員制度
+                    <br>
+                    ・上記に伴うセキュリティ周りの強化
+                    <br>
+                    ・ユーザー同士のコミュニケーションツール
+                    <br>
+                    ・使用機器による施設検索
+                    <br>
+                    ・ログイン機能の最適化（SNS、メール認証等）
+                    <br>
+                    ・スマホによる利用への適合
+                    <br>
+                    ・ブロック、情報非公開などのプライバシー保護機能
+                    <br>
+                    ・管理者権限の充実
+                    <br>
+                    ・全体のデザイン性の向上
+                    <br>
+                    ・いいね等の機能
+                    <br>
+                    ・お気に入り機能
+                    <br>
+                    ・非同期通信を拡充
+                    <br>
+                    ・各種設定
+                    <br>
+                    ・規約
+                  </p>
+                </div>
+              </!--div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/pict-work01-firstview_pc.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / render / Visual Studio Code </p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/pict-work02-firstview_pc.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>MRI-guide（MRI撮影業務の補助アプリ）</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / render / Visual Studio Code </p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Hashimoto Yoshito</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
